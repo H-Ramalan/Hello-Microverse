@@ -82,7 +82,7 @@ I would like to thank my coding partner, my morning session team and also my sta
 
 ## 📝 License <a name="license"></a>
 
-This project is  [MIT license](./LICENSE) licensed.
+This project is  [MIT license](https://github.com/H-Ramalan/Hello-Microverse/blob/hello-microverse-setup/LICENSE.MD) licensed.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
