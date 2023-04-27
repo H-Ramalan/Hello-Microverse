@@ -82,7 +82,7 @@ I would like to thank my coding partner, my morning session team and also my sta
 
 ## 📝 License <a name="license"></a>
 
-This project is  [MIT license](https://choosealicense.com/licenses/mit/)(./LICENSE) licensed.
+This project is  [MIT license](./LICENSE) licensed.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
