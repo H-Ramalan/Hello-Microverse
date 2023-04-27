@@ -7,6 +7,8 @@
     - [Tech Stack](#tech-stack)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -17,21 +19,94 @@
 
 # 📖 [Hello Microverse] <a name="about-project"></a>
 
-**[Hello Microverse]** is the first project in the first block of the first module of Microverse full stack web development program.
+**[Hello Microverse]** is the first project in the first block of the first module of Microverse full stack web development program to upskill you in creating a branch and adding linters to your local development enviroment.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-<details>
-  <summary>Client</summary>
   <ul>
     <li>HTML</li>
     <li>CSS</li>
   </ul>
-</details>
 
 ## 💻 Getting Started <a name="getting-started"></a>
+Creating your first "Hello-microverse" project
+
+To run this application localy, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+-A code editor
+<br>
+-NPM
+<br>
+-git/github account
+<br>
+-browser
+
+### Setup
+
+1.  Clone the Repo with:
+```
+git clone https://github.com/H-Ramalan/Hello-Microverse.git
+```
+2. switch to the cloned directory
+```
+cd Hello-World
+```
+
+### Installation
+
+1. Install the project with it's depenedcies
+```
+npm install
+```
+Then open the live server or open the `index.html` file with your browser
+
+
+## Web Hint
+
+This is a customizable linting tool that helps you improve your site's accessibility, speed, cross-browser compatibility, and more by checking your code for best practices and common errors.
+
+**NOTE:** If you are using Windows, make sure you initialize npm to create `package.json` file.
+
+```
+npm init -y
+```
+
+1. Run
+   ```
+   npm install --save-dev hint@7.x
+   ```
+   _how to use npm: (https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)._
+2. Copy [.hintrc](.hintrc) to the root directory of your project.
+3. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
+   - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
+4. Run
+   ```
+   npx hint .
+   ```
+5. Fix validation errors.
+
+### [Stylelint](https://stylelint.io/)
+
+A mighty, modern linter that helps you avoid errors and enforce conventions in your styles.
+
+1. Run
+
+npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+not sure how to use npm? Read this.
+
+2. Copy .stylelintrc.json to the root directory of your project.
+
+3. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
+
+If you think that change is necessary - open a Pull Request in this repository and let your code reviewer know about it. 4. Run npx stylelint "\*_/_.{css,scss}" on the root of your directory of your project.
+
+5. Fix linter errors.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -46,6 +121,9 @@
 
 ## 🔭 Future Features <a name="future-features"></a>
 
+- [ ] **[More animations]**
+- [ ] **[More styling]**
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
@@ -58,13 +136,13 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project please you can support me by starring it on github.
+If you like this project please you can support me by starring it on github, leave a comment and share with other developers that might be interested.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank my coding partner, my morning session team and also my stand up team for being very supportive during this project.
+I would like to thank Microverse first of all, my coding partner, my morning session team and also my stand up team for being very supportive during this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -72,11 +150,11 @@ I would like to thank my coding partner, my morning session team and also my sta
 
 - **[What is the project about?]**
 
-  - [It is my first project at microverse]
+  - [It is my first project at microverse.]
 
-- **[will there be additional features?]**
+- **[Will there be additional features?]**
 
-  - [Unfortunately, it is a simple project with very little chance of having any added features in the future.]
+  - [There might probably be more addition of more styling and animations.]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
